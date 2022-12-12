@@ -4,10 +4,11 @@
  pkg install python
  pkg install git  
  pip insttall requests bs4
+ rm -rf IGEH
  git clone https://github.com/givi-xd/IGEH
  cd IGEH
 ```
-# HOE TO RUN?
+# HOW TO RUN?
 ### FOR 32 BIT
 ```bash
  ./givi32
