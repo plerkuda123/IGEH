@@ -7,14 +7,9 @@
  rm -rf IGEH
  git clone https://github.com/givi-xd/IGEH
  cd IGEH
- chmod +x givi32 givi64
+ python run.py
 ```
 # HOW TO RUN?
-### FOR 32 BIT
 ```bash
- ./givi32
-```
-### FOR 64 BIT
-```bash
- ./givi64
+ python run.py
 ```
