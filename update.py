@@ -1,8 +1,8 @@
 import os
 
 print(" + UPDATE ")
-os.remove("givi32")
-os.remove("givi64")
+os.system("rm -rf givi32")
+os.system("rm -rf givi64")
 os.system("git pull")
 os.system("git pull")
 os.system("chmod +x givi32 givi64")
