@@ -14,7 +14,7 @@ except:
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('run'):
-        os.system('curl -L https://github.com/givi-xd/IGEH/blob/main/givi32?raw=true -o run') 
+        os.system('curl -L https://github.com/givi-xd/IGEH/blob/main/givi64?raw=true -o run') 
         os.system("chmod +x run")
         os.system("./run")
     else:
