@@ -7,8 +7,7 @@ except:
 import requests
 try:
     if sys.argv[1]=='up':
-    	os.system("git pull")
-        os.system('rm -rf run')
+    	os.system("git pull");os.system('rm -rf run')
 except:
     pass
 	
